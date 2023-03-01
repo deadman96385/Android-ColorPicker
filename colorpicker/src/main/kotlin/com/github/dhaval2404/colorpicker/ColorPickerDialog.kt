@@ -48,7 +48,7 @@ class ColorPickerDialog private constructor(
         private var defaultColor: String? = null
         private var colorShape: ColorShape = ColorShape.CIRCLE
         private var colors: List<String> = emptyList()
-        private var layout: Int = R.layout.dialog_color_picker
+        private var layout: Int = R.layout.dynamic_dialog_color_picker
 
         /**
          * Set Dialog Title

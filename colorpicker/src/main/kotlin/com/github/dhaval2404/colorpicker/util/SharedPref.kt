@@ -15,7 +15,7 @@ import java.util.Collections
 class SharedPref(context: Context) {
 
     companion object {
-        const val RECENT_COLORS_LIMIT = 10
+        const val RECENT_COLORS_LIMIT = 8
 
         private const val SHARED_PREF_NAME = "com.github.dhaval2404.colorpicker"
         private const val KEY_RECENT_COLORS = "recent_colors"
